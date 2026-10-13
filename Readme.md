@@ -112,7 +112,7 @@ A equipe pode estruturar a solução seguindo duas abordagens principais:
 
 ---
 
-## 📅 Roadmap Semestral
+## 📅 Roadmap Semestral(VAMOS TER QUE DEFINIR BEM CERTINHO)
 
 * [x] **Sprint 1 (Mês 1):** Definição de arquitetura, alinhamento de plataformas de assinatura da empresa e setup do repositório.
 * [ ] **Sprint 2 (Mês 2):** Configuração do recebimento no Outlook (regras de caixa, permissões de API ou trigger no Power Automate).
