@@ -18,7 +18,7 @@ O sistema monitora uma caixa de entrada dedicada no **Microsoft Outlook**, extra
 
 ---
 
-## 🛠️ Stack Tecnológica & Sugestões de Ferramentas
+## 🛠️ Stack Tecnológica & Sugestões de Ferramentas(VAMOS TER QUE VALIDAR SE TUDO ISSO É REALMENTE NECESSÁRIO)
 
 | Camada | Tecnologias / Abordagens | Descrição |
 | :--- | :--- | :--- |
@@ -86,12 +86,6 @@ A equipe pode estruturar a solução seguindo duas abordagens principais:
 * Filtra por remetente/assunto das plataformas de assinatura.
 * Executa parsing do link de assinatura ou envia o payload via webhook para um **Power Automate Desktop** ou robô backend em Python/Node.js.
 
-### 2. Abordagem Standalone / Código Aberto (API + Bot Dedicado)
-
-* Um worker consome a **Microsoft Graph API** (ou protocolo IMAP com autenticação moderna OAuth2).
-* Monitora pastas específicas de e-mail, extrai o HTML do corpo da mensagem e localiza o token/URL de assinatura via expressões regulares.
-* Dispara uma rotina em Playwright/Selenium para assinar e salva o comprovante.
-
 ---
 
 ## 🔒 Boas Práticas de Segurança
@@ -114,7 +108,7 @@ A equipe pode estruturar a solução seguindo duas abordagens principais:
 
 ## 📅 Roadmap Semestral(VAMOS TER QUE DEFINIR BEM CERTINHO)
 
-* [x] **Sprint 1 (Mês 1):** Definição de arquitetura, alinhamento de plataformas de assinatura da empresa e setup do repositório.
+* [ ] **Sprint 1 (Mês 1):** Definição de arquitetura, alinhamento de plataformas de assinatura da empresa e setup do repositório.
 * [ ] **Sprint 2 (Mês 2):** Configuração do recebimento no Outlook (regras de caixa, permissões de API ou trigger no Power Automate).
 * [ ] **Sprint 3 (Mês 3):** Desenvolvimento do robô de automação (interação web com as plataformas de assinatura ou injeção PAdES local).
 * [ ] **Sprint 4 (Mês 4):** Orquestração ponta a ponta (Outlook ➔ Robô ➔ Registro de Logs), com tratamento de falhas e reprocessamento.
